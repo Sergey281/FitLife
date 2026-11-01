@@ -8,6 +8,6 @@ water_1 = water_needed / 1000
 
 print(f"\nПривет, {user_name}!")
 print(f"Ваш возраст: {user_age} лет(год)")
-print(f"Ваш ИМТ: {bmi:.0f}")
-print(f"Рекомендуемая норма воды: {water_1:.3f} мл в день")
+print(f"Ваш ИМТ: {bmi:.1f}")
+print(f"Рекомендуемая норма воды: {water_1:.1f} мл в день")
 print("Расчет окончен. Будьте здоровы!")
