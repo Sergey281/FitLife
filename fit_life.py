@@ -2,9 +2,9 @@ WATER_PER_KG = 30
 CONVERSION_TO_ML = 100
 user_name = input("Как вас зовут?:")
 user_age = int(input("Сколько вам полных лет:"))
-user_weight = float(input("Сколько вы весите в кг (например, 75)?:"))
+user_weight = float(input("Сколько вы весите в кг (например, 75.6)?:"))
 user_height = float(input("Какой у вас рост в метрах, (например 1.75)?:"))
-bmi = user_weight // (user_height ** 2)  # индекс массы тела
+bmi = user_weight / (user_height ** 2)  # индекс массы тела
 water_needed = user_weight * WATER_PER_KG
 water_1 = water_needed / CONVERSION_TO_ML
 
